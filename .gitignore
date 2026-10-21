@@ -1,0 +1,41 @@
+# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Local AI model weights
+models/
+*.gguf
+*.safetensors
+*.bin
+
+# Private application data and conversations
+data/
+chats/
+conversations/
+open-webui-data/
+ollama-data/
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+
+# Logs
+*.log
+
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
