@@ -24,22 +24,18 @@ Run an AI model locally and chat through a browser-based interface. A desktop sh
 
 ## Architecture
 
-```text
-Desktop Shortcut
-       |
-       v
-Startup Script
-       |
-       +----> Ollama Service
-       |          |
-       |          v
-       |      Nemotron Model
-       |
-       +----> Docker / Open WebUI
-                      |
-                      v
-               Browser Chat
-```
+LocalAIWorkspace/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── screenshots/
+│   ├── local-ai-chat.png
+│   └── local-ai-response.png
+└── scripts/
+    ├── install-local-ai.sh
+    ├── install-open-webui.sh
+    ├── install-desktop-shortcut.sh
+    └── start-local-ai.sh
 
 ## Requirements
 
